@@ -1,0 +1,23 @@
+{
+  "name": "mern-comments-box",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "concurrently": "^3.6.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run server testdb\" \"mongod --dbpath /Users/amirbuchvalter/Documents/mongodb-data\" \"npm start\"",
+    "server": "node ./server/server.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
