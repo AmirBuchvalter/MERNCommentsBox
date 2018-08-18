@@ -1,12 +1,12 @@
 MERN Comments-Box
 ============
 
-The project was realized using React.js as a client framework, Node.js as a web server, Express.js to implement a simple HTTP API and finally a MongoDB database to store and fetch data from the client 
+The project was realized using React.js as a client framework, Node.js as a web server, Express.js to implement a simple HTTP API and finally a MongoDB database to store and fetch data from the client
 
 ## Prerequisites
 
 - [NPM](https://www.npmjs.com/get-npm)
-- [MongoDB Community Edition ^4](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition) 
+- [MongoDB Community Edition ^4](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition)
 - [NodeJS ^8](https://nodejs.org/en/download/)
 
 ## Getting Started
@@ -25,9 +25,9 @@ npm install
 ```
 npm install --prefix ./server
 ```
-- Open the package.json file under the repository root. Under "scripts"->"dev", add a local MongoDB data folder, for example:
+- Open the package.json file under the repository root. Under "scripts"->"dev", add your chosen local MongoDB data folder. For example:
 ```
-mongod --dbpath /Users/someuser/Documents/mongodb-data
+mongod --dbpath /Users/<someuser>/Documents/mongodb-data
 ```
 
 ## Running the App Locally
