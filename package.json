@@ -9,9 +9,6 @@
     "react-dom": "^16.4.2",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {
-    "webpack": "^4.16.5"
-  },
   "scripts": {
     "dev": "concurrently \"npm run server testdb\" \"mongod --dbpath /Users/amirbuchvalter/Documents/mongodb-data\" \"npm start\"",
     "server": "node ./server/server.js",
